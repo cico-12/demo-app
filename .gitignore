@@ -1,0 +1,9 @@
+.vscode/
+.idea/
+*.tar
+*.tar.gz
+postgres_data/
+*.log
+*.swp
+*.swo
+#.env

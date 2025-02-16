@@ -1,0 +1,18 @@
+server:
+  servlet:
+    context-path: /java
+
+app:
+  node:
+    url: http://node-app:8081/
+
+spring:
+  jpa:
+    properties:
+      hibernate:
+        temp.use_jdbc_metadata_defaults: false
+
+  datasource:
+    url: jdbc:postgresql://demo-app-postgres-db:5432/mypsql
+    username: modeerus
+    password: demoPaSS
